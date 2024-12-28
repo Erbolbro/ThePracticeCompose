@@ -45,6 +45,7 @@ fun ListCard(name: String, prof: String) {
                         .size(64.dp)
                         .padding(4.dp)
                         .clip(CircleShape)
+
                 )
                 Column(modifier = Modifier.padding(start = 16.dp)) {
                     Text(text = name)
